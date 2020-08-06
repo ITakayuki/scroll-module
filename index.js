@@ -1,9 +1,12 @@
-function smoothScroll(element){
+function smoothScroll(element, breakpoint){
     const target = document.querySelector(element);
-    target.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-    });
+
+    if(element) {
+        target.scrollIntoView({
+            behavior: "smooth",
+            block: breakpoint
+        });
+    }
 }
 
 export default smoothScroll;
