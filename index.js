@@ -1,12 +1,17 @@
-function smoothScroll(element, breakpoint){
+function ScrollModule(element, breakpoint){
+    let BP;
+    if(breakpoint == null || breakpoint == undefined){
+        BP = "start";
+    }else{
+        BP = breakpoint;
+    }
     const target = document.querySelector(element);
-
-    if(element) {
+    if(target){
         target.scrollIntoView({
             behavior: "smooth",
-            block: breakpoint
-        });
+            block: BP
+        })
     }
 }
 
-export default smoothScroll;
+export default ScrollModule;
