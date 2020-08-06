@@ -1,0 +1,22 @@
+{
+  "name": "scroll-module",
+  "version": "1.0.0",
+  "description": "npm install --save",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITakayuki/scroll-module.git"
+  },
+  "keywords": [
+    "scroll"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ITakayuki/scroll-module/issues"
+  },
+  "homepage": "https://github.com/ITakayuki/scroll-module#readme"
+}
